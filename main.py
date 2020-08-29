@@ -41,7 +41,7 @@ if __name__ == '__main__':
                     marks=random.randrange(0, 600),
                     roll_number=''.join(random.choice(letters) for j in range(4)))
         student_list.append(s)
-    # print(sort(student_list, ('name', 'age')))
+    print(sort(student_list, ('name', 'age')))
 
     delhi_to_mumbai = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30]
     mumbai_to_delhi = [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75]
